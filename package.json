@@ -6,6 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
+    "deploy:github": "ng build --base-href=\"https://pritchardmap.github.io/ioco-carousel/\" && ngh --dir dist/ioco-carousel",
     "test": "ng test"
   },
   "private": true,
